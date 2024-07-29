@@ -13,3 +13,27 @@
 - VAE
 
   (참고) https://github.com/AntixK/PyTorch-VAE
+
+
+
+### 데이터셋
+
+- UTKface
+
+https://susanqq.github.io/UTKFace/
+
+- CelebA
+
+https://www.kaggle.com/datasets/jessicali9530/celeba-dataset/data
+
+- wider face
+
+http://shuoyang1213.me/WIDERFACE/
+
+- iCartoonFace
+
+https://github.com/luxiangju-PersonAI/iCartoonFace
+
+- animalweb
+
+https://fdmaproject.wordpress.com/author/fdmaproject/

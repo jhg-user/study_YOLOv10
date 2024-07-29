@@ -49,6 +49,7 @@
 
 # ~/yolov10pj/yolov10_human/pytorch-Deep-SVDD - .pth 파일들 제외
 /yolov10_human/pytorch-Deep-SVDD/*.pth
+/yolov10_human/pytorch-Deep-SVDD/*.pt
 
 # ~/yolov10pj/yolov10_human/pytorch-Deep-SVDD - human_images 디렉토리 제외
 /yolov10_human/pytorch-Deep-SVDD/human_images/

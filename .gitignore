@@ -18,6 +18,9 @@
 /yolov10/dataset/WIDER_DARKNET/results/*
 !/yolov10/dataset/WIDER_DARKNET/results
 
+/yolov10/dataset/*
+!/yolov10/dataset/WIDER_DARKNET
+
 # ~/yolov10pj/yolov10 - yolov10 모델 파일들
 /yolov10/*.pt
 /yolov10/app.py
@@ -31,6 +34,7 @@
 
 # ~/yolov10pj/yolov10/trainresult - 디렉토리 자체 및 하위 디렉토리 모두 제외
 /yolov10/trainresult/
+/yolov10/model/
 
 # ~/yolov10pj/yolov10_human/PyTorch-VAE/runs - 하위 디렉토리 및 파일 제외
 /yolov10_human/PyTorch-VAE/runs/*

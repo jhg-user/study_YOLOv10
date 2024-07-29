@@ -2,7 +2,7 @@ import requests
 import os
 
 # Pexels API 키 설정
-api_key = 'LbBClAkBciFoslbKnLjNHS882YWZof1egDVJNG4YgXVZLqs26jpIAruG'
+api_key = '개인 Pexels API 키'
 
 # 검색 쿼리 설정
 query = 'close up face'

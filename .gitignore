@@ -1,0 +1,82 @@
+/backup_.git
+
+# ~/yolov10pj/autoenv
+/autoenv
+
+# ~/yolov10pj/myenv
+/myenv
+
+# ~/yolov10pj/autoencoder/dataset
+/autoencoder/dataset/*
+!/autoencoder/dataset
+
+# ~/yolov10pj/yolov10/dataset/WIDER_DARKNET - images, labels, results 폴더 제외
+/yolov10/dataset/WIDER_DARKNET/images/*
+!/yolov10/dataset/WIDER_DARKNET/images
+/yolov10/dataset/WIDER_DARKNET/labels/*
+!/yolov10/dataset/WIDER_DARKNET/labels
+/yolov10/dataset/WIDER_DARKNET/results/*
+!/yolov10/dataset/WIDER_DARKNET/results
+
+# ~/yolov10pj/yolov10 - yolov10 모델 파일들
+/yolov10/*.pt
+/yolov10/app.py
+/yolov10/examples/
+
+# ~/yolov10pj/yolov10/runs - runs 디렉토리만 포함하고 하위 파일 제외
+/yolov10/runs/*
+!/yolov10/runs
+/yolov10/logs/*
+!/yolov10/logs
+
+# ~/yolov10pj/yolov10/trainresult - 디렉토리 자체 및 하위 디렉토리 모두 제외
+/yolov10/trainresult/
+
+# ~/yolov10pj/yolov10_human/PyTorch-VAE/runs - 하위 디렉토리 및 파일 제외
+/yolov10_human/PyTorch-VAE/runs/*
+!/yolov10_human/PyTorch-VAE/runs
+/yolov10_human/PyTorch-VAE/env/
+
+# ~/yolov10pj/yolov10_human/PyTorch-VAE/logs - 하위 디렉토리 및 파일 제외
+/yolov10_human/PyTorch-VAE/logs/*
+!/yolov10_human/PyTorch-VAE/logs
+/yolov10_human/PyTorch-VAE/tests/*
+!/yolov10_human/PyTorch-VAE/tests
+
+# ~/yolov10pj/yolov10_human/PyTorch-VAE의 특정 PNG 파일들 제외
+/yolov10_human/PyTorch-VAE/roc_curve.png
+/yolov10_human/PyTorch-VAE/reconstruction_errors_histogram.png
+
+# ~/yolov10pj/yolov10_human/pytorch-Deep-SVDD - .pth 파일들 제외
+/yolov10_human/pytorch-Deep-SVDD/*.pth
+/yolov10_human/pytorch-Deep-SVDD/*.pt
+
+# ~/yolov10pj/yolov10_human/pytorch-Deep-SVDD - human_images 디렉토리 제외
+/yolov10_human/pytorch-Deep-SVDD/human_images/
+
+# ~/yolov10pj/yolov10_human/pytorch-Deep-SVDD의 dataset, runs, weights 디렉토리 하위 파일 및 디렉토리 제외
+/yolov10_human/pytorch-Deep-SVDD/dataset/*
+!/yolov10_human/pytorch-Deep-SVDD/dataset
+
+/yolov10_human/pytorch-Deep-SVDD/runs/*
+!/yolov10_human/pytorch-Deep-SVDD/runs
+
+/yolov10_human/pytorch-Deep-SVDD/weights/*
+!/yolov10_human/pytorch-Deep-SVDD/weights
+
+/yolov10_human/dataset/*
+!/yolov10_human/dataset
+
+/yolov10_human/trainresult/
+/yolov10_human/runs/*
+!/yolov10_human/runs
+/yolov10_human/ultralytics/
+/yolov10_human/mkdocs.yml
+/yolov10_human/LICENSE
+/yolov10_human/CONTRIBUTING.md
+/yolov10_human/README.md
+/yolov10_human/app.py
+/yolov10_human/examples/
+/yolov10_human/logs/
+/yolov10_human/model_down.py
+/yolov10_human/pyproject.toml

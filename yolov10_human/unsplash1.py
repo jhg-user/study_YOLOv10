@@ -3,7 +3,7 @@ import json
 import os
 
 # Unsplash API 키 설정
-access_key = 'hSBLfADnE9IEstS28P3jnh7fYOWjO1NKMISq2uuaKn0'
+access_key = '개인 Unsplash API 키'
 
 # 검색 쿼리 설정
 query = 'close up face'

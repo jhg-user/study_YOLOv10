@@ -1,0 +1,10 @@
+path: WIDER_DARKNET  # dataset_path
+train: images/train  # train images
+val: images/val  # val images
+test: images/test
+
+# Classes
+nc: 1  # number of classes
+name:
+  0: face
+

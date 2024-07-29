@@ -18,6 +18,9 @@
 /yolov10/dataset/WIDER_DARKNET/results/*
 !/yolov10/dataset/WIDER_DARKNET/results
 
+/yolov10/dataset/*
+!/yolov10/dataset/WIDER_DARKNET
+
 # ~/yolov10pj/yolov10 - yolov10 모델 파일들
 /yolov10/*.pt
 /yolov10/app.py
@@ -31,6 +34,7 @@
 
 # ~/yolov10pj/yolov10/trainresult - 디렉토리 자체 및 하위 디렉토리 모두 제외
 /yolov10/trainresult/
+/yolov10/model/
 
 # ~/yolov10pj/yolov10_human/PyTorch-VAE/runs - 하위 디렉토리 및 파일 제외
 /yolov10_human/PyTorch-VAE/runs/*
@@ -64,14 +68,22 @@
 /yolov10_human/pytorch-Deep-SVDD/weights/*
 !/yolov10_human/pytorch-Deep-SVDD/weights
 
+/yolov10_human/*.pt
 /yolov10_human/dataset/*
 !/yolov10_human/dataset
 
 /yolov10_human/trainresult/
+
 /yolov10_human/runs/*
 !/yolov10_human/runs
-/yolov10_human/ultralytics/
-/yolov10_human/mkdocs.yml
+
+/yolov10_human/model/*
+!/yolov10_human/model
+
+/yolov10_human/tests/
+
+#/yolov10_human/ultralytics/
+#/yolov10_human/mkdocs.yml
 /yolov10_human/LICENSE
 /yolov10_human/CONTRIBUTING.md
 /yolov10_human/README.md
@@ -79,4 +91,4 @@
 /yolov10_human/examples/
 /yolov10_human/logs/
 /yolov10_human/model_down.py
-/yolov10_human/pyproject.toml
+#/yolov10_human/pyproject.toml

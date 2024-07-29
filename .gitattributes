@@ -1,0 +1,5 @@
+autoencoder filter=lfs diff=lfs merge=lfs -text
+autoenv filter=lfs diff=lfs merge=lfs -text
+myenv filter=lfs diff=lfs merge=lfs -text
+yolov10 filter=lfs diff=lfs merge=lfs -text
+yolov10_human filter=lfs diff=lfs merge=lfs -text

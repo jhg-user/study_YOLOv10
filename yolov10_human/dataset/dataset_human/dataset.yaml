@@ -1,0 +1,11 @@
+path: dataset_human  # dataset_path
+train: images/train  # train images
+val: images/val  # val images
+test: images/test
+
+# Classes
+nc: 2 # number of classes
+name:
+  0: human-face
+  1: non-human-face
+

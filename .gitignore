@@ -71,6 +71,13 @@
 /yolov10_human/*.pt
 /yolov10_human/dataset/*
 !/yolov10_human/dataset
+!/yolov10_human/dataset/dataset_human
+/yolov10_human/dataset/dataset_human/images/*
+!/yolov10_human/dataset/dataset_human/images
+/yolov10_human/dataset/dataset_human/labels/*
+!/yolov10_human/dataset/dataset_human/labels
+/yolov10_human/dataset/dataset_human/results
+
 
 /yolov10_human/trainresult/
 

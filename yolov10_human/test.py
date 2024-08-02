@@ -7,7 +7,8 @@ from ultralytics import YOLOv10
 # 모델 경로
 #best_saved_model_path = '/home/hkj/yolov10pj/yolov10/trainresult/result_facedetect13/weights/best.pt' # class 1개 학습된 l
 #best_saved_model_path = '/home/hkj/yolov10pj/yolov10_human/trainresult/result_facedetect4/weights/best.pt' # class 2개 학습된 s
-best_saved_model_path = '/home/hkj/yolov10pj/yolov10_human/trainresult/result_facedetect7/weights/best.pt' # class 2개 학습된 l
+#best_saved_model_path = '/home/hkj/yolov10pj/yolov10_human/trainresult/result_facedetect7/weights/best.pt' # class 2개 학습된 l
+best_saved_model_path = '/home/hkj/yolov10pj/yolov10_human/trainresult/result_facedetect13/weights/best.pt' # class 2개 학습된 l
 
 # 모델 로드
 model = YOLOv10(best_saved_model_path)
@@ -19,7 +20,7 @@ model = YOLOv10(best_saved_model_path)
 test_images_path = '/home/hkj/yolov10pj/yolov10_human/dataset/test/*.jpg'  
 
 # 결과 저장 폴더 설정
-output_dir = 'runs/result_l'
+output_dir = 'runs/result_epoch50'
 #output_dir = 'runs/predict_pexel'
 #output_dir = 'runs/predict_UTK'
 #output_dir = 'runs/predict_unsplash'

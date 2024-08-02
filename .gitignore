@@ -78,6 +78,11 @@
 !/yolov10_human/dataset/dataset_human/labels
 /yolov10_human/dataset/dataset_human/results
 
+/yolov10_human/paralleltrain_large.py
+/yolov10_human/paralleltrain_large2.py
+/yolov10_human/paralleltrain_large3.py
+/yolov10_human/paralleltrain_large4.py
+/yolov10_human/run_parallel.sh
 
 /yolov10_human/trainresult/
 

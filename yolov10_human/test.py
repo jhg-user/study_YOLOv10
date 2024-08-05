@@ -7,7 +7,8 @@ from ultralytics import YOLOv10
 # 모델 경로
 #best_saved_model_path = '/home/hkj/yolov10pj/yolov10/trainresult/result_facedetect13/weights/best.pt' # class 1개 학습된 l
 #best_saved_model_path = '/home/hkj/yolov10pj/yolov10_human/trainresult/result_facedetect4/weights/best.pt' # class 2개 학습된 s
-best_saved_model_path = '/home/hkj/yolov10pj/yolov10_human/trainresult/result_facedetect7/weights/best.pt' # class 2개 학습된 l
+#best_saved_model_path = '/home/hkj/yolov10pj/yolov10_human/trainresult/result_facedetect7/weights/best.pt' # class 2개 학습된 l
+best_saved_model_path = '/home/hkj/yolov10pj/yolov10_human/trainresult/result_facedetect13/weights/best.pt' # class 2개 학습된 l
 
 # 모델 로드
 model = YOLOv10(best_saved_model_path)
@@ -16,10 +17,11 @@ model = YOLOv10(best_saved_model_path)
 #test_images_path = '/home/hkj/yolov10pj/yolov10_human/dataset/pexels_faces/*.jpg'  # bigface 경로로
 #test_images_path = '/home/hkj/yolov10pj/yolov10_human/dataset/unsplash_faces/*.jpg'  # bigface 경로로
 #test_images_path = '/home/hkj/yolov10pj/yolov10_human/dataset/UTKface/*.jpg'  
-test_images_path = '/home/hkj/yolov10pj/yolov10_human/dataset/test/*.jpg'  
+#test_images_path = '/home/hkj/yolov10pj/yolov10_human/dataset/test/*.jpg'  
+test_images_path = '/home/hkj/yolov10pj/yolov10_human/dataset/test2/*.jpg'  
 
 # 결과 저장 폴더 설정
-output_dir = 'runs/result_l'
+output_dir = 'runs/result_epoch50'
 #output_dir = 'runs/predict_pexel'
 #output_dir = 'runs/predict_UTK'
 #output_dir = 'runs/predict_unsplash'
@@ -46,7 +48,7 @@ for i in range(0, len(image_paths), batch_size):
     with torch.no_grad():
         try:
             #results = model.predict(images, save=True, imgsz=imgszs[0], conf=0.5, device=1)
-            results = model.predict(images, save=True, imgsz=640, conf=0.5, device=1)
+            results = model.predict(images, save=True, imgsz=640, conf=0.5, device=0)
         except RuntimeError as e:
             print(f"RuntimeError occurred: {e}")
             print("Switching to CPU for this batch.")

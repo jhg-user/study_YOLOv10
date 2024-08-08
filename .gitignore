@@ -11,12 +11,12 @@
 !/autoencoder/dataset
 
 # ~/yolov10pj/yolov10/dataset/WIDER_DARKNET - images, labels, results 폴더 제외
-/yolov10/dataset/WIDER_DARKNET/images/*
 !/yolov10/dataset/WIDER_DARKNET/images
-/yolov10/dataset/WIDER_DARKNET/labels/*
+/yolov10/dataset/WIDER_DARKNET/images/*
 !/yolov10/dataset/WIDER_DARKNET/labels
-/yolov10/dataset/WIDER_DARKNET/results/*
+/yolov10/dataset/WIDER_DARKNET/labels/*
 !/yolov10/dataset/WIDER_DARKNET/results
+/yolov10/dataset/WIDER_DARKNET/results/*
 
 /yolov10/dataset/*
 !/yolov10/dataset/WIDER_DARKNET
